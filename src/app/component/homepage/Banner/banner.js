@@ -7,6 +7,8 @@ export default function Banner() {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsPlaying(true);
+      console.log("TEsr");
+      
     }, 3000); // 3-second delay
 
     return () => clearTimeout(timer); // Clean up the timer if the component unmounts
