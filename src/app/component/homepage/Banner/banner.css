@@ -1,0 +1,62 @@
+.banner {
+    position: relative;
+    height: 60vh;
+    color: white;
+    object-fit: contain;
+  }
+  
+  .content {
+    position: absolute;
+    top: 40%;
+    left: 30px;
+    z-index: 2;
+  }
+  
+  .logo {
+    width: 35%;
+    margin-bottom: 20px;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .button {
+    cursor: pointer;
+    font-weight: bold;
+    padding: 8px 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+    border: none;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  .playButton {
+    background-color: white;
+    color: black;
+  }
+  
+  .moreInfoButton {
+    background-color: rgba(51, 51, 51, 0.5);
+    color: white;
+  }
+  
+  .button:hover {
+    transform: scale(1.05);
+  }
+  
+  .fadeBottom {
+    position: absolute;
+    bottom: 0;
+    height: 7.4rem;
+    background-image: linear-gradient(
+      180deg,
+      transparent,
+      rgba(37, 37, 37, 0.61),
+      #111
+    );
+    width: 100%;
+  }
+  
